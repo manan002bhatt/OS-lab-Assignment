@@ -61,17 +61,12 @@ gcc 02_pthreads_creation_management.c -o threads -pthread
 - The Dining Philosophers program allows at most four philosophers to compete for forks at a time to avoid deadlock.
 - Memory allocation and file allocation programs are simple simulations for learning the algorithms.
 
-## Upload to GitHub
-
-Create a new repository on GitHub. Open a terminal inside this folder and run:
 
 ```bash
 git init
 git add .
 git commit -m "Add OS lab programs"
 git branch -M main
-git remote add origin https://github.com/USERNAME/REPOSITORY.git
+git remote add origin https://github.com/manan002bhatt/OS-lab-Assignment.git
 git push -u origin main
 ```
-
-Replace `USERNAME` and `REPOSITORY` with your GitHub username and repository name.
